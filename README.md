@@ -59,14 +59,14 @@ from daily_github_commit import (
 
 add_repository(
     "GitCommit",
-    "C:/Users/NITIN/Documents/project",
+    "C:/Users/Nitesh Kumhar/project",
     "https://github.com/your-name/project.git",
     True,
     True,
     "Automated commit",
 )
 
-print(get_repo_status("C:/Users/NITIN/Documents/project"))
+print(get_repo_status("C:/Users/Nitesh Kumhar/project"))
 
 for repository in load_repositories():
     auto_commit(repository)
